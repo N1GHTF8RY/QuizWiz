@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: violet;
+    background-color: transparent;
     padding: 25px 10%;
     display: flex;
     justify-content: space-between;
@@ -30,6 +30,7 @@ body{
     color: white;
     text-decoration: none;
     font-weight: 700;
+    filter: drop-shadow(0 0 5px #09001d);
 }
 
 .navbar a{
@@ -45,3 +46,30 @@ body{
     color: rgb(17, 0, 255);
 }
 
+.main{
+    min-height: 100vh;
+    background: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

@@ -43,7 +43,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: rgb(17, 0, 255);
+    color: rgb(23, 205, 218);
 }
 
 .main{
@@ -54,8 +54,8 @@ body{
 }
 
 .home{
-    height: 100vh;
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,10 +66,62 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .home-content h1{
     font-size: 60px;
     font-weight: 700;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
+
+.home-content p{
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+
+.home-content .start-button{
+    width: 120px;
+    height: 55px;
+    background: rgba(252, 76, 255, 0.751);
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(252, 76, 255, 0.751);
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.home-content .start-button:hover{
+    background: #09001d;
+    box-shadow: none;
+}
+
+
+
+
+
+
+/* 
+.topic-head h2{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.topic-head hr{
+    max-width: 60px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+} */

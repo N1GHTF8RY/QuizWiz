@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuizWiz App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -30,10 +31,23 @@
                 <button class="start-button">Get Started</button>
             </div>
         </section>
-
     </main>
+    <section class="popup">
+        <div class="popup-info">
+            <h2>Log in to save results!</h2>
+            <p>Log in or sign up to view reports after the game, or continue as a guest without access to results.</p>
 
+            <div class="button-grp">
+                <button class="user-button sign-up">Sign Up</button>
+                <button class="user-button guest-user">Play as a Guest</button>
 
+            </div>
+            <a href="#" class="log-in">Already have an account? Log in</a>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

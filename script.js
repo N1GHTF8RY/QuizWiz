@@ -17,7 +17,22 @@ $(document).ready(function(){
         };
     });
 
+    const hamburgerIcon = $(".hamburger-menu");
+    const slidingMenu = $(".sliding-header-menu-outer");
+    const closeButton = $(".close-icon");
+
+
+    hamburgerIcon.click(() => {
+        slidingMenu.addClass("show");
+    });
+ 
+    closeButton.click(() => {
+        slidingMenu.removeClass("show");
+    });
     
+
+
+
 
 
 })

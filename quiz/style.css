@@ -6,22 +6,24 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #dddfeb;
+  background: url(background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .container {
   position: relative;
   width: 100%;
   max-width: 600px;
-  background: #1f2847;
   padding: 30px;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
 }
 
 .heading {
@@ -29,12 +31,14 @@ body {
   font-size: 40px;
   color: #fff;
   margin-bottom: 50px;
+  filter: drop-shadow(0 0 4px #09001d);
 }
 label {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 10px;
   color: #fff;
+  font-weight: 500;
 }
 
 select {
@@ -46,7 +50,7 @@ select {
   margin-bottom: 20px;
   background: #fff;
   color: #1f2847;
-  font-size: 14px;
+  font-size: 15px;
 }
 .start-screen .btn {
   margin-top: 50px;
@@ -78,7 +82,8 @@ select {
   height: 100%;
   border-radius: 30px;
   overflow: hidden;
-  background: linear-gradient(to right, #ea517c, #b478f1);
+  /* background: linear-gradient(to right, #ea517c, #b478f1); */
+  background: linear-gradient(to right, #2980B9, #6DD5FA,#FFFFFF);
   transition: 1s linear;
 }
 .timer .progress .progress-text {

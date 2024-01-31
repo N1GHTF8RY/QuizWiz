@@ -24,6 +24,8 @@ body {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  /* background-color:  rgba(232, 51, 220, 0.4); */
+  background: linear-gradient(to bottom right, #338bc6cb, #b332b8b1);
 }
 
 .heading {

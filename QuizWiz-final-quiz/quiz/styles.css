@@ -265,7 +265,7 @@ body{
 }
 
 .popup-info .button-grp .guest-user:hover {
-    background: #224cf3;
+    background: rgb(34, 76, 243);
     box-shadow: 0px 2px 1px #878787;
     font-size: 17px;
 }
@@ -427,7 +427,6 @@ Topics Section
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     width: 150px;
-    height: 200px
     
 }
 

@@ -9,7 +9,7 @@
 
 body{
     color: white;
-    background: url('images/background.jpg');
+    background: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     pointer-events: auto;
@@ -265,7 +265,7 @@ body{
 }
 
 .popup-info .button-grp .guest-user:hover {
-    background: #224cf3;
+    background: rgb(34, 76, 243);
     box-shadow: 0px 2px 1px #878787;
     font-size: 17px;
 }
@@ -388,92 +388,3 @@ body{
         margin-bottom: 15px;
     }
 }
-
-/* *******************************
-Topics Section
-****************** */
-
-/* .container {
-    padding: 70px 100px;
-    width: 100%;
-    border: 2px solid black;
-    margin-top: 90px;
-
-    
-}
-.container .category-section{
-
-    display: grid;
-    grid-template-rows: repeat(2,250px);
-    grid-template-columns: repeat(3,150px);
-    justify-content:space-around;
-    align-content:space-around;
-    gap: 10px;
-
-}
-
-.container .category-section .items{
-    background-color: red;
-}
- */
-
-
-.card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    width: 150px;
-    height: 200px
-    
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-
-.container-box{
-    height: 100vh;
-}
-
-.container-grid{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2,auto);
-    gap: 50px;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    padding: 90px 80px 0px;
-    height: 90%;
-    
-}
-
-
-
-
-
-/* 
-.topic-head h2{
-    margin-top: 60px;
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 20px;
-
-}
-
-.topic-head hr{
-    max-width: 60px;
-    margin: auto;
-    border: 1px solid rgb(255, 255, 255);
-} */

@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup and Login</title>
   <link rel="stylesheet" href="css/signup.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -32,7 +31,7 @@
           <div class="pass-link"><input type="checkbox" id="showPasswordToggle">&nbsp;show password</div>
           <div class="field btn">
             <div class="btn-layer"></div>
-            <input class = "login-button" type="submit" value="Login">
+            <input type="submit" value="Login" onclick="login()">
           </div>
           <div class="signup-link">Not a member? <a href="">Signup now</a></div>
         </form>
@@ -53,7 +52,7 @@
           <input type="checkbox" id="showPasswordToggle1">&nbsp;show password
           <div class="field btn">
             <div class="btn-layer"></div>
-            <input class = "sign-up-button" type="submit" value="Signup">
+            <input type="submit" value="Signup" onclick="signup()">
           </div>
         </form>
       </div>

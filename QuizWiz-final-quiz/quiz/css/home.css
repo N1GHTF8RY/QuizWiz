@@ -41,84 +41,20 @@ body{
     filter: drop-shadow(0 0 5px #09001d);
 }
 
-.navbar a.nav-list-items{
+
+.back-button img{
+    width:45px;
+    height: 45px;
+}
+
+
+.navbar .logout-button{
+    cursor: pointer;
     font-size: 18px;
-    color: white;
-    font-weight: 400;
-    margin-left: 20px;
-    text-decoration: none;
 }
 
-.navbar .hamburger-menu {
-    display: none;
-}
-
-.navbar .hamburger-menu img {
-    width: 35px;
-    height: auto;
-    vertical-align: middle;
-}
-
-.navbar a:hover,
-.navbar a.active{
-    color: rgb(23, 205, 218);
-}
-
-
-/* .sliding-header-menu-outer {
-    display: none;
-}
-
-.sliding-header-menu-main-menu ul{
-    list-style: none;
-}
-
-.sliding-header-menu-li li{
-    text-decoration: none;
-} */
-
-
-.sliding-header-menu-outer {
-    position: fixed;
-    z-index: 99;
-    right: -320px;
-    overflow: hidden;
-    width: 320px;
-    height: 100%;
-    top: 0px;
-    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.12);
-    transition: right 300ms ease-out; 
-}
-.sliding-header-menu-outer .sliding-header-menu {
-    height: 100vh;
-    background-color: #FFF;
-    position: relative;
-    width: 100%; 
-}
-.sliding-header-menu-outer .sliding-header-menu .sliding-header-menu-li {
-    margin: 0;
-    margin-top: 30px; 
-}
-.sliding-header-menu-outer .sliding-header-menu .sliding-header-menu-li li {
-    display: block;
-    height: 42px;
-    margin-right: 0;
-    text-align: center; 
-}
-
-.sliding-header-menu-outer .sliding-header-menu .sliding-header-menu-li li a{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.sliding-header-menu-close-button{
-    text-align: center;
-    padding: 30px 0px 10px 0px;
-}
-
-.show{
-    right:0;
+.navbar .logout-button:hover{
+    color: #082e97;
 }
 
 
@@ -276,7 +212,38 @@ body{
     color: #000000;
 }
 
-/*Design for Small Desktop*/
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(225, 160, 241);
+    color: aliceblue;
+    
+}
+
+th {
+    background-color: #1f2947;
+    color: aliceblue;
+
+}
+
+.main-leaderboard h1 {
+    
+    padding-top: 40px;
+    text-align: center;
+}
+
+.main-leaderboard{
+    margin-top: 60px;
+}
+
+/*Design for Laptops*/
 @media screen and (max-width: 1440px){
     
 }
@@ -284,14 +251,7 @@ body{
 
 /*Design for Tablets*/
 @media screen and (max-width: 960px){
-    .navbar a.nav-list-items{
-        display: none;
-    }
-
-    .navbar .hamburger-menu{
-        display: inline-block;
-    }
-
+    
     .home-content{
         max-width: 92%;
 

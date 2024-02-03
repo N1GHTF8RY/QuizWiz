@@ -71,8 +71,8 @@ body{
 }
 
 .back-button img{
-  width:50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 
@@ -314,7 +314,7 @@ body{
 
 .card img {
   max-width: 100%;
-  height: auto;
+  height: 85%;
   border-radius: 8px;
 }
 
@@ -393,8 +393,8 @@ body{
   }
 
   .container-grid{
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     grid-template-columns: repeat(3,minmax(0,1fr));
     grid-template-rows: repeat(2,minmax(0,1fr));
     padding: 10px;

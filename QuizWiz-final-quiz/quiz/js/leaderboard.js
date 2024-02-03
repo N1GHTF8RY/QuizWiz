@@ -58,3 +58,12 @@ function updateLeaderboard() {
 
 // Call the function to initially populate the leaderboard
 updateLeaderboard();
+
+
+
+function logout() {
+    localStorage.setItem('loggedInUser', "");
+    
+    location.href = "index.html"
+  }
+  

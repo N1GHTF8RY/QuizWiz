@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>QuizWiz</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="back-button">
+        <a href="index.html"><img src="images/back-button.png" alt="back-button" class="src"></a>
+      </div>
+    </header>
+    
+      <div class="start-screen">
+        <div class="container-box">
+          <div class="container-grid"></div>
+      
+          </div>
+        
+      </div>
+      <div class="container hide">
+      <div class="quiz hide">
+        <div class="timer">
+          <div class="progress">
+            <div class="progress-bar"></div>
+            <span class="progress-text"></span>
+          </div>
+        </div>
+        <div class="question-wrapper">
+          <div class="number">
+            Question <span class="current">1</span>
+            <span class="total">/10</span>
+          </div>
+          <div class="question">This is a question This is a question?</div>
+        </div>
+        <div class="answer-wrapper">
+          <div class="answer selected">
+            <span class="text">answer</span>
+            <span class="checkbox">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+        </div>
+        <button class="btn submit" disabled>Submit</button>
+        <button class="btn next">Next</button>
+      </div>
+      <div class="end-screen hide">
+        <h1 class="heading">Quiz App</h1>
+
+        
+
+        <div class="score">
+          <div class="percentage-container">
+
+            <div class="circular-progress">
+              <div class="progress-value">0%</div>
+            </div>
+          </div>
+          <span class="score-text">Your score:</span>
+          <div>
+            <span class="final-score">0</span>
+            <span class="total-score">/10</span>
+          </div>
+        </div>
+        <div class="btn1">
+        <button class="btn restart">Restart Quiz</button>
+        <button class="btn submit"><a href ="index.html">Go To Home</a></button>
+
+      </div>
+      </div>
+    </div>
+    <script src="js/quiz.js"></script>
+
+  </body>
+</html>

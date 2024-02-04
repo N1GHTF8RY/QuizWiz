@@ -213,7 +213,7 @@ body{
 }
 
 .score .percentage-container {
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,51 +330,19 @@ body{
 }
 
 
-/* .loader {
-  border: 16px solid #f3f3f3; 
-  border-top: 16px solid #3498db; 
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  align-items: center;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-} */
-
-
-/* .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 50px;
-  max-width: 250px;
-  max-height: 250px;
-  text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease-in-out;
-  
-  cursor: pointer;
- /*  backdrop-filter: blur(100px); */
-  
-
-
-
-
 /* Media Queries */
 /*Design for Small Desktop*/
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1400px){
     
   .container-grid .card{
     padding: 1.2rem;
     height: 90%;
-    width: 90%;
+    max-width: 90%;
+  }
+
+  .container{
+    max-height: 90%;
+    overflow-y: auto;
   }
 
 }
@@ -416,11 +384,6 @@ body{
 }
 
 
-
-
-
-
-
 /*Design for Mobile Phones*/
 @media screen and (max-width: 576px) {
   header .logo {
@@ -447,12 +410,49 @@ body{
     max-width: 600px;
     background: transparent;
     padding: 30px;
-    overflow: hidden;
     border-radius: none;
     box-shadow: none;
     backdrop-filter: none;
   }
 
+  .timer {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .timer .progress{
+    height: 30px;
+  }
+
+  .question-wrapper,
+  .answer-wrapper{
+    margin-bottom: 25px;
+  }
+
+  .question-wrapper .number {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .question-wrapper .number .total {
+    font-size: 16px;
+  }
+
+  .question-wrapper .question {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .answer-wrapper .answer {
+    height: 40px;
+    padding: 18px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 16px;
+  }
 }
 
 
